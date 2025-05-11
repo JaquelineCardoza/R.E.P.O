@@ -9,7 +9,6 @@ int main() {
     // Solicita los dos números
     cout << "Ingresa el primer número: ";
     cin >> num1;
-
     cout << "Ingresa el segundo número: ";
     cin >> num2;
 
