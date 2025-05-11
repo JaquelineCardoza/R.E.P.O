@@ -35,6 +35,5 @@ int main() {
     } else {
         cout << "Ambos números están a la misma distancia de 100." << endl;
     }
-
     return 0;
 }
