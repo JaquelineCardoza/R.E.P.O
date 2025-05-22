@@ -12,7 +12,7 @@ int main()
     cout << "Ingrese un numero\n";
     cin >> n;
 
-    int a = 0, b = 1;
+    int a = 0, b = 1;//a es el primer numero de la serie, b 
     cout << "Serie de Fibonacci: ";
     for (int i = 0; i < n; ++i) // Aumenta el valor de la variable i en 1 antes de usarla en la expresión actual (pre-incremento).
     {
