@@ -5,16 +5,20 @@ using namespace std;
 
 int main()
 {
-    int num = 0;
+    int num = 0, suma = 0;
     cout << "Introduce un numero: \n";
     cin >> num;
 
-    for (int i = 0; i < num; i++)
+    for (int i; num != i; num / 10)
     {
-        int digit = num % 10;                      // Obtiene el último dígito
-        num /= 10;                                 // Elimina el último dígito del número
-        cout << "La suma de sus digitos es: " << digit + num << endl; // Muestra el dígito actual
-    }
+        //cout << "La NUM " << num << endl; //
 
+        int residuo = num % 10;
+        num /= 10;
+        suma += residuo;
+        //cout << "La suma " << suma << endl; //
+
+    }
+    cout << "La suma de sus digitos es: " << suma << endl; //
     return 0;
 }
