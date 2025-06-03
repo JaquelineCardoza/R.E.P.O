@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    float consumo;
+    int consumo;
 
     cout << "Ingrese el consumo de electricidad en kWh: ";
     cin >> consumo;
