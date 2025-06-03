@@ -17,7 +17,7 @@ int main()
     }
     else if (consumo < 100)
     {
-        cout << "Tarifa: Baja" << endl;
+        cout << "Tarifa: Baja. Total a pagar en dolares $" << consumo * 0.14  << endl;
     }
     else if (consumo <= 200)
     {
