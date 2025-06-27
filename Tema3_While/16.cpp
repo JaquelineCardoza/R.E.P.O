@@ -1,4 +1,5 @@
-#include <stdio.h>
+/*Número Capicúa
+Solicita un número y determina si es capicúa (Ejemplo: 12321 es capicúa).*/
 
 #include <iostream>
 using namespace std;

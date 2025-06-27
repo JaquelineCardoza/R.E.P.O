@@ -1,5 +1,6 @@
-/*Suma de Elementos
-Escribe un programa que almacene N números en un arreglo y calcule la suma de sus elementos.*/
+/*Promedio de un Arreglo
+Solicita N números, guárdalos en un arreglo y calcula el promedio.*/
+
 #include <iostream>
 using namespace std;
 
@@ -24,7 +25,6 @@ int main()
         cin >> numeros[i];
         suma += numeros[i];
     }
-    cout << "Suma de los datos ingresado: " << suma << endl;
 
     return 0;
 }
