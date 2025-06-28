@@ -1,0 +1,2 @@
+/*Escribir en un Archivo
+Crea un programa que solicite al usuario un mensaje y lo guarde en un archivo de texto llamado mensaje.txt.*/
